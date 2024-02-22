@@ -1,0 +1,11 @@
+* {
+  align-items: center;
+}
+.main {
+  display: flex;
+  /* background-color: blue; */
+}
+.cost {
+  display: flex;
+  justify-content: space-between;
+}
