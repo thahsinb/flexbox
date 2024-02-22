@@ -1,5 +1,51 @@
 * {
-  align-items: center;
+  /* align-items: center; */
+  margin: auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  line-height: 1.4;
+}
+h1::before {
+  content: "SALE";
+  padding: 5px 10px;
+  color: white;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: bold;
+  background-color: red;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+}
+.footer h3 {
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+}
+.cart {
+  font-size: 30px;
+
+  font-weight: 300;
+}
+
+.header {
+  text-align: center;
+  background-color: beige;
+  height: 80px;
+}
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 5px solid black;
+  margin: 70px auto;
+  position: relative;
+  /* display: flex; */
 }
 .main {
   display: flex;
@@ -8,4 +54,40 @@
 .cost {
   display: flex;
   justify-content: space-between;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 70px;
+}
+.img {
+  flex-shrink: 0;
+}
+.product-colors {
+  display: flex;
+}
+.box {
+  background-color: black;
+  width: 23px;
+  height: 23px;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blueviolet;
 }
